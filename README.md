@@ -288,19 +288,6 @@ GROUP BY t.agent_visible, v.parsed_value;
 
 ---
 
-## Day-by-Day Progress
-
-| Day | Goal | Status |
-|-----|------|--------|
-| **1** | Grid, visibility, renderer, database — smoke test | ✅ Done |
-| **2** | `vlm.py` + `agent.py` + full loop with `--mock-vlm` | ✅ Done |
-| **3** | First live run — agent makes real decisions, debug prompt | ⬜ Next |
-| **4** | 150-step clean episode, collect data | ⬜ |
-| **5** | Analysis: mine-while-hidden rate, confession rate, VLM accuracy | ⬜ |
-| **6** | Visualisations for blog (saliency, behaviour charts) | ⬜ |
-| **7** | Write Blog 1 | ⬜ |
-
----
 
 ## Common Issues
 
